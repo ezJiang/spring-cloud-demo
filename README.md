@@ -68,3 +68,7 @@ java -jar gateway-service/target/gateway-service-1.0.0.jar
 - 熔断限流：引入 `spring-cloud-circuitbreaker-resilience4j`。
 - 链路追踪：引入 Micrometer Tracing + Zipkin。
 - 多实例验证负载均衡：把 `user-service` 以不同端口再起一个实例（`-Dserver.port=8083`）。
+
+## 运行
+
+- ![image-20260918130952531](C:\Users\jiangenzheng\AppData\Roaming\Typora\typora-user-images\image-20260918130952531.png)
