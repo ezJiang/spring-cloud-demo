@@ -71,4 +71,5 @@ java -jar gateway-service/target/gateway-service-1.0.0.jar
 
 ## 运行
 
-- ![image-20260918130952531](C:\Users\jiangenzheng\AppData\Roaming\Typora\typora-user-images\image-20260918130952531.png)
+<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/0d6a9697-0af8-43a0-b8c0-4dd92d418362" />
+
