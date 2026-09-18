@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 注册中心自身不需要向自己注册/拉取注册表
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    # 本地演示关闭自我保护，方便观察实例上下线
+    enable-self-preservation: false
